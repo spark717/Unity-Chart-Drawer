@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="TestWindow.uss" />
+    <ui:VisualElement style="height: 20px; background-color: rgb(111, 110, 110); flex-direction: row; display: flex; visibility: visible;">
+        <ui:Button text="Add Random Point" display-tooltip-when-elided="true" name="add-point-button" style="width: 108px;" />
+        <ui:Slider picking-mode="Ignore" label="scale" value="1" high-value="3" low-value="0.01" show-input-field="false" name="scale" style="width: 172px; background-color: rgb(91, 65, 65);" />
+        <ui:Toggle label="pillar mode" value="false" name="pillar-mode" style="background-color: rgb(67, 83, 91); margin-bottom: 1px;" />
+        <ui:Toggle label="show labels" name="show-labels" style="background-color: rgb(30, 67, 42); margin-bottom: 1px;" />
+        <ui:Button text="Clear" display-tooltip-when-elided="true" name="clear-button" />
+    </ui:VisualElement>
+    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" show-horizontal-scroller="true" mode="Horizontal" style="flex-basis: 0; flex-grow: 1;" />
+</ui:UXML>

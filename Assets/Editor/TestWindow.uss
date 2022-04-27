@@ -1,0 +1,22 @@
+.chart-positive {
+    background-color: rgb(18, 103, 14);
+}
+
+.chart-negative {
+    background-color: rgb(178, 29, 29);
+}
+
+.unity-content-container {
+}
+
+Slider > Label {
+    min-width: 45px;
+}
+
+Toggle > Label {
+    min-width: 73px;
+}
+
+.value-label {
+    background-color: rgba(0, 0, 0, 0.48);
+}
